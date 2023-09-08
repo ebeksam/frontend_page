@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personal Data</h1>
+        <div class="data-container">
+            <p>Slack Name: <span data-testid="slackUserName">Samuel Ebek</span></p>
+            <p>Slack Display Picture</p>
+            <img src="images/IMG_9140.JPG" alt="Samuel Ebek" data-testid="slackDisplayImage">
+            <p>Current Day of the Week: <span data-testid="currentDayOfTheWeek">Loading...</span></p>
+            <p>Current UTC Time: <span data-testid="currentUTCTime">Loading...</span></p>
+            <p>Track: <span data-testid="myTrack">Frontend</span></p>
+            <a data-testid="githubURL" href="https://github.com/ebeksam/frontend_page.git">GitHub URL</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
